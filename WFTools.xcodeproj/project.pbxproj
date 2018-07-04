@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4379B2C620ECD92300EABCAC /* WFFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4379B2C520ECD92300EABCAC /* WFFactory.m */; };
+		4379B2CB20ECD97800EABCAC /* UIView+ViewFrameExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4379B2C920ECD97800EABCAC /* UIView+ViewFrameExtension.m */; };
+		4379B2D020ECDEF200EABCAC /* WFDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 4379B2CF20ECDEF200EABCAC /* WFDevice.m */; };
 		F7500B2F1E08A55500AE8B5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7500B2E1E08A55500AE8B5B /* main.m */; };
 		F7500B321E08A55500AE8B5B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7500B311E08A55500AE8B5B /* AppDelegate.m */; };
 		F7500B351E08A55500AE8B5B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7500B341E08A55500AE8B5B /* ViewController.m */; };
@@ -15,8 +18,6 @@
 		F7500B3D1E08A55500AE8B5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7500B3B1E08A55500AE8B5B /* LaunchScreen.storyboard */; };
 		F7500B481E08A55500AE8B5B /* WFToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7500B471E08A55500AE8B5B /* WFToolsTests.m */; };
 		F7500B531E08A55500AE8B5B /* WFToolsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7500B521E08A55500AE8B5B /* WFToolsUITests.m */; };
-		F7500B671E08A59100AE8B5B /* WFFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = F7500B631E08A59100AE8B5B /* WFFactory.m */; };
-		F7500B681E08A59100AE8B5B /* UIView+ViewFrameExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F7500B661E08A59100AE8B5B /* UIView+ViewFrameExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4379B2C420ECD92300EABCAC /* WFFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFFactory.h; sourceTree = "<group>"; };
+		4379B2C520ECD92300EABCAC /* WFFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFFactory.m; sourceTree = "<group>"; };
+		4379B2C920ECD97800EABCAC /* UIView+ViewFrameExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewFrameExtension.m"; sourceTree = "<group>"; };
+		4379B2CA20ECD97800EABCAC /* UIView+ViewFrameExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ViewFrameExtension.h"; sourceTree = "<group>"; };
+		4379B2CD20ECDB4200EABCAC /* WFMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFMacros.h; sourceTree = "<group>"; };
+		4379B2CE20ECDEF200EABCAC /* WFDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFDevice.h; sourceTree = "<group>"; };
+		4379B2CF20ECDEF200EABCAC /* WFDevice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFDevice.m; sourceTree = "<group>"; };
 		F7500B2A1E08A55500AE8B5B /* WFTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WFTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7500B2E1E08A55500AE8B5B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F7500B301E08A55500AE8B5B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,10 +61,6 @@
 		F7500B4E1E08A55500AE8B5B /* WFToolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WFToolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7500B521E08A55500AE8B5B /* WFToolsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFToolsUITests.m; sourceTree = "<group>"; };
 		F7500B541E08A55500AE8B5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F7500B621E08A59100AE8B5B /* WFFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFFactory.h; sourceTree = "<group>"; };
-		F7500B631E08A59100AE8B5B /* WFFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFFactory.m; sourceTree = "<group>"; };
-		F7500B651E08A59100AE8B5B /* UIView+ViewFrameExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ViewFrameExtension.h"; sourceTree = "<group>"; };
-		F7500B661E08A59100AE8B5B /* UIView+ViewFrameExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewFrameExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4379B2C320ECD92300EABCAC /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				4379B2C420ECD92300EABCAC /* WFFactory.h */,
+				4379B2C520ECD92300EABCAC /* WFFactory.m */,
+				4379B2CE20ECDEF200EABCAC /* WFDevice.h */,
+				4379B2CF20ECDEF200EABCAC /* WFDevice.m */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		4379B2C720ECD97800EABCAC /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4379B2C820ECD97800EABCAC /* View */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		4379B2C820ECD97800EABCAC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4379B2CA20ECD97800EABCAC /* UIView+ViewFrameExtension.h */,
+				4379B2C920ECD97800EABCAC /* UIView+ViewFrameExtension.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4379B2CC20ECDB2B00EABCAC /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				4379B2CD20ECDB4200EABCAC /* WFMacros.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
 		F7500B211E08A55500AE8B5B = {
 			isa = PBXGroup;
 			children = (
@@ -150,28 +190,11 @@
 		F7500B601E08A59100AE8B5B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				F7500B611E08A59100AE8B5B /* factory */,
-				F7500B641E08A59100AE8B5B /* viewExtension */,
+				4379B2CC20ECDB2B00EABCAC /* Macro */,
+				4379B2C720ECD97800EABCAC /* Extension */,
+				4379B2C320ECD92300EABCAC /* Factory */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		F7500B611E08A59100AE8B5B /* factory */ = {
-			isa = PBXGroup;
-			children = (
-				F7500B621E08A59100AE8B5B /* WFFactory.h */,
-				F7500B631E08A59100AE8B5B /* WFFactory.m */,
-			);
-			path = factory;
-			sourceTree = "<group>";
-		};
-		F7500B641E08A59100AE8B5B /* viewExtension */ = {
-			isa = PBXGroup;
-			children = (
-				F7500B651E08A59100AE8B5B /* UIView+ViewFrameExtension.h */,
-				F7500B661E08A59100AE8B5B /* UIView+ViewFrameExtension.m */,
-			);
-			path = viewExtension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,11 +333,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4379B2D020ECDEF200EABCAC /* WFDevice.m in Sources */,
 				F7500B351E08A55500AE8B5B /* ViewController.m in Sources */,
+				4379B2C620ECD92300EABCAC /* WFFactory.m in Sources */,
 				F7500B321E08A55500AE8B5B /* AppDelegate.m in Sources */,
-				F7500B681E08A59100AE8B5B /* UIView+ViewFrameExtension.m in Sources */,
+				4379B2CB20ECD97800EABCAC /* UIView+ViewFrameExtension.m in Sources */,
 				F7500B2F1E08A55500AE8B5B /* main.m in Sources */,
-				F7500B671E08A59100AE8B5B /* WFFactory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -550,6 +574,7 @@
 				F7500B591E08A55500AE8B5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F7500B5A1E08A55500AE8B5B /* Build configuration list for PBXNativeTarget "WFToolsTests" */ = {
 			isa = XCConfigurationList;
@@ -558,6 +583,7 @@
 				F7500B5C1E08A55500AE8B5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F7500B5D1E08A55500AE8B5B /* Build configuration list for PBXNativeTarget "WFToolsUITests" */ = {
 			isa = XCConfigurationList;
@@ -566,6 +592,7 @@
 				F7500B5F1E08A55500AE8B5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
