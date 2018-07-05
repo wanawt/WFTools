@@ -10,6 +10,11 @@
 		4379B2C620ECD92300EABCAC /* WFFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4379B2C520ECD92300EABCAC /* WFFactory.m */; };
 		4379B2CB20ECD97800EABCAC /* UIView+ViewFrameExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4379B2C920ECD97800EABCAC /* UIView+ViewFrameExtension.m */; };
 		4379B2D020ECDEF200EABCAC /* WFDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 4379B2CF20ECDEF200EABCAC /* WFDevice.m */; };
+		4379B2D420EDBA2E00EABCAC /* NSArray+WFSafeArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 4379B2D320EDBA2E00EABCAC /* NSArray+WFSafeArray.m */; };
+		4379B2D720EDBBCC00EABCAC /* NSDictionary+WFSafeDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 4379B2D620EDBBCC00EABCAC /* NSDictionary+WFSafeDictionary.m */; };
+		4379B2DA20EDBC7D00EABCAC /* NSObject+WFExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 4379B2D920EDBC7D00EABCAC /* NSObject+WFExtend.m */; };
+		4379B2DE20EDBD7100EABCAC /* NSObject+WFDateExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 4379B2DD20EDBD7100EABCAC /* NSObject+WFDateExtend.m */; };
+		4379B2E120EDBF3300EABCAC /* NSString+WFExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 4379B2E020EDBF3300EABCAC /* NSString+WFExtend.m */; };
 		F7500B2F1E08A55500AE8B5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7500B2E1E08A55500AE8B5B /* main.m */; };
 		F7500B321E08A55500AE8B5B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7500B311E08A55500AE8B5B /* AppDelegate.m */; };
 		F7500B351E08A55500AE8B5B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7500B341E08A55500AE8B5B /* ViewController.m */; };
@@ -45,6 +50,16 @@
 		4379B2CD20ECDB4200EABCAC /* WFMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFMacros.h; sourceTree = "<group>"; };
 		4379B2CE20ECDEF200EABCAC /* WFDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFDevice.h; sourceTree = "<group>"; };
 		4379B2CF20ECDEF200EABCAC /* WFDevice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFDevice.m; sourceTree = "<group>"; };
+		4379B2D220EDBA2E00EABCAC /* NSArray+WFSafeArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+WFSafeArray.h"; sourceTree = "<group>"; };
+		4379B2D320EDBA2E00EABCAC /* NSArray+WFSafeArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+WFSafeArray.m"; sourceTree = "<group>"; };
+		4379B2D520EDBBCC00EABCAC /* NSDictionary+WFSafeDictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+WFSafeDictionary.h"; sourceTree = "<group>"; };
+		4379B2D620EDBBCC00EABCAC /* NSDictionary+WFSafeDictionary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+WFSafeDictionary.m"; sourceTree = "<group>"; };
+		4379B2D820EDBC7D00EABCAC /* NSObject+WFExtend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+WFExtend.h"; sourceTree = "<group>"; };
+		4379B2D920EDBC7D00EABCAC /* NSObject+WFExtend.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+WFExtend.m"; sourceTree = "<group>"; };
+		4379B2DC20EDBD7100EABCAC /* NSObject+WFDateExtend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+WFDateExtend.h"; sourceTree = "<group>"; };
+		4379B2DD20EDBD7100EABCAC /* NSObject+WFDateExtend.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+WFDateExtend.m"; sourceTree = "<group>"; };
+		4379B2DF20EDBF3300EABCAC /* NSString+WFExtend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+WFExtend.h"; sourceTree = "<group>"; };
+		4379B2E020EDBF3300EABCAC /* NSString+WFExtend.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+WFExtend.m"; sourceTree = "<group>"; };
 		F7500B2A1E08A55500AE8B5B /* WFTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WFTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7500B2E1E08A55500AE8B5B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F7500B301E08A55500AE8B5B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -102,6 +117,8 @@
 		4379B2C720ECD97800EABCAC /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				4379B2DB20EDBD5000EABCAC /* Objects */,
+				4379B2D120EDBA0200EABCAC /* Sets */,
 				4379B2C820ECD97800EABCAC /* View */,
 			);
 			path = Extension;
@@ -122,6 +139,30 @@
 				4379B2CD20ECDB4200EABCAC /* WFMacros.h */,
 			);
 			path = Macro;
+			sourceTree = "<group>";
+		};
+		4379B2D120EDBA0200EABCAC /* Sets */ = {
+			isa = PBXGroup;
+			children = (
+				4379B2D220EDBA2E00EABCAC /* NSArray+WFSafeArray.h */,
+				4379B2D320EDBA2E00EABCAC /* NSArray+WFSafeArray.m */,
+				4379B2D520EDBBCC00EABCAC /* NSDictionary+WFSafeDictionary.h */,
+				4379B2D620EDBBCC00EABCAC /* NSDictionary+WFSafeDictionary.m */,
+			);
+			path = Sets;
+			sourceTree = "<group>";
+		};
+		4379B2DB20EDBD5000EABCAC /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				4379B2D820EDBC7D00EABCAC /* NSObject+WFExtend.h */,
+				4379B2D920EDBC7D00EABCAC /* NSObject+WFExtend.m */,
+				4379B2DC20EDBD7100EABCAC /* NSObject+WFDateExtend.h */,
+				4379B2DD20EDBD7100EABCAC /* NSObject+WFDateExtend.m */,
+				4379B2DF20EDBF3300EABCAC /* NSString+WFExtend.h */,
+				4379B2E020EDBF3300EABCAC /* NSString+WFExtend.m */,
+			);
+			path = Objects;
 			sourceTree = "<group>";
 		};
 		F7500B211E08A55500AE8B5B = {
@@ -333,11 +374,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4379B2DE20EDBD7100EABCAC /* NSObject+WFDateExtend.m in Sources */,
 				4379B2D020ECDEF200EABCAC /* WFDevice.m in Sources */,
+				4379B2E120EDBF3300EABCAC /* NSString+WFExtend.m in Sources */,
 				F7500B351E08A55500AE8B5B /* ViewController.m in Sources */,
+				4379B2D420EDBA2E00EABCAC /* NSArray+WFSafeArray.m in Sources */,
 				4379B2C620ECD92300EABCAC /* WFFactory.m in Sources */,
 				F7500B321E08A55500AE8B5B /* AppDelegate.m in Sources */,
 				4379B2CB20ECD97800EABCAC /* UIView+ViewFrameExtension.m in Sources */,
+				4379B2D720EDBBCC00EABCAC /* NSDictionary+WFSafeDictionary.m in Sources */,
+				4379B2DA20EDBC7D00EABCAC /* NSObject+WFExtend.m in Sources */,
 				F7500B2F1E08A55500AE8B5B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
