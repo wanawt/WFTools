@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface NSString (WFExtend)
 
@@ -22,5 +23,24 @@
  包括 nil, Null, @"", @" " 等等
  */
 - (BOOL)isBlankString;
+
+/**
+ 插入逗号
+ 用于金额显示，比如 1000 显示为 1,000
+ 
+ @return 格式化后的字符串
+ */
+- (NSString *)moneyFormatWithQuote;
+
+/**
+ 格式化时间段
+ 比如将 200秒 格式化成 00:03:20
+ 
+ @param timeInterval 时间段
+ @return @"hh:MM:ss"
+ */
++ (NSString *)timeStringWithSec:(NSTimeInterval)timeInterval;
+
+- (UIColor *)colorFromString;
 
 @end

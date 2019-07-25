@@ -81,4 +81,36 @@
     return confromTimespStr;
 }
 
+- (NSInteger)currentYear {
+    NSDate *currentDate = [NSDate date];
+    NSCalendar* calendar = [NSCalendar currentCalendar];
+    NSDateComponents* components = [calendar components:NSCalendarUnitYear fromDate:currentDate];
+    return [components year];
+}
+
+- (NSInteger)currentMonth {
+    NSDate *currentDate = [NSDate date];
+    NSCalendar* calendar = [NSCalendar currentCalendar];
+    NSDateComponents* components = [calendar components:NSCalendarUnitMonth fromDate:currentDate];
+    return [components month];
+}
+
+- (NSString *)currentYearMonthDesc {
+    NSInteger year = [self currentYear];
+    NSInteger month = [self currentMonth];
+    return [NSString stringWithFormat:@"%@-%02ld", @(year), (long)month];
+}
+
+- (NSString *)lastYearMonthDesc {
+    NSInteger year = [self currentYear];
+    NSInteger month = [self currentMonth];
+    if (month > 1) {
+        month -= 1;
+    } else {
+        year -= 1;
+        month = 12;
+    }
+    return [NSString stringWithFormat:@"%@-%02ld", @(year), (long)month];
+}
+
 @end

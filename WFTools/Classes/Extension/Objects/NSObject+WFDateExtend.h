@@ -69,4 +69,26 @@
  */
 - (NSString *)getTimeWithFormatYMDHMS:(long long)ctrateTime;
 
+/**
+ 当前年份
+ */
+- (NSInteger)currentMonth;
+
+/**
+ 当前月份
+ */
+- (NSInteger)currentYear;
+
+/**
+ 当前 年-月
+ 形式为 yyyy-MM
+ */
+- (NSString *)currentYearMonthDesc;
+
+/**
+ 上一个月 年-月
+ 形式为 yyyy-MM
+ */
+- (NSString *)lastYearMonthDesc;
+
 @end
